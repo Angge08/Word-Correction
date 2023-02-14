@@ -40,5 +40,15 @@ label1.grid(row=1, column=0)
 label2.grid(row=3, column=0, padx=10)
 word1_field = Entry(window, width=35, font=('Helvetica', 24))
 word2_field = Entry(window, width=35, font=('Helvetica', 24))
+word1_field.grid(row=1, column=1, padx=20, pady=30)
+word2_field.grid(row=3, column=1, padx=10, pady=30)
+
+button1 = Button(window, text="Correction", bg="red", fg="black", width=20, height=2,
+                 command=correction, font=("Arial", 10, "bold"))
+
+button1.grid(row=2, column=1)
+button2 = Button(window, text="Clear", bg="red", width=20, height=2,
+                 fg="black", command=clearAll, font=("Arial", 10, "bold"))
+button2.grid(row=4, column=1)
 
 
