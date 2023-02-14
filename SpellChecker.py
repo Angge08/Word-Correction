@@ -14,4 +14,21 @@ def correction():
     corrected_word = str(word.correct())
     word2_field.insert(10, corrected_word)
 
+if __name__ == "main":
+    window = Tk()
+    window.configure(background='gray')
+    window.geometry("1000x450")
+    window.title("Spell Corrector")
+header = Label(window,
+                   text='Word Correction',
+                   font=('Trebuchet MS', 24, 'bold'),
+                   relief=RAISED,
+                   height=1,
+                   bd=10,
+                   padx=20,
+                   pady=20,
+                   width=30,
+                   fg='#00FF00',
+                   bg="black")
+
 
