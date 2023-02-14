@@ -51,4 +51,6 @@ button2 = Button(window, text="Clear", bg="red", width=20, height=2,
                  fg="black", command=clearAll, font=("Arial", 10, "bold"))
 button2.grid(row=4, column=1)
 
+window.mainloop()
+
 
