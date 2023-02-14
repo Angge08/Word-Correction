@@ -1,9 +1,6 @@
 from tkinter import *
-import tkinter as tk
-window = tk.Tk()
-
 from textblob import TextBlob
-
+window = Tk()
 
 def clearAll():
     word1_field.delete(0, END)
@@ -15,7 +12,6 @@ def correction():
     word2_field.insert(10, corrected_word)
 
 if __name__ == "main":
-    window = Tk()
     window.configure(background='gray')
     window.geometry("1000x450")
     window.title("Spell Corrector")
