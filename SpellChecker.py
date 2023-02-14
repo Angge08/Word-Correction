@@ -35,5 +35,9 @@ label1 = Label(window, text="Input Word", relief='sunken', bd=5,
 
 label2 = Label(window, text="Corrected Word", relief='sunken', bd=5,
                fg='black', bg='dark green', font=('Trebuchet MS', 24, 'bold'))
+header.grid(row=0, column=1)
+label1.grid(row=1, column=0)
+label2.grid(row=3, column=0, padx=10)
+
 
 
