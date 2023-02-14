@@ -38,6 +38,7 @@ label2 = Label(window, text="Corrected Word", relief='sunken', bd=5,
 header.grid(row=0, column=1)
 label1.grid(row=1, column=0)
 label2.grid(row=3, column=0, padx=10)
-
+word1_field = Entry(window, width=35, font=('Helvetica', 24))
+word2_field = Entry(window, width=35, font=('Helvetica', 24))
 
 
