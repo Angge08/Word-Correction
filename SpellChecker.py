@@ -30,5 +30,10 @@ header = Label(window,
                    width=30,
                    fg='#00FF00',
                    bg="black")
+label1 = Label(window, text="Input Word", relief='sunken', bd=5,
+               fg='black', bg='green', font=('Trebuchet MS', 24, 'bold'))
+
+label2 = Label(window, text="Corrected Word", relief='sunken', bd=5,
+               fg='black', bg='dark green', font=('Trebuchet MS', 24, 'bold'))
 
 
