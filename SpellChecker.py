@@ -1,6 +1,8 @@
 from tkinter import *
 from textblob import TextBlob
 window = Tk()
+window.title("Spell Corrector")
+window.geometry("1000x500")
 
 def clearAll():
     word1_field.delete(0, END)
@@ -13,8 +15,8 @@ def correction():
 
 if __name__ == "main":
     window.configure(background='gray')
-    window.geometry("1000x450")
-    window.title("Spell Corrector")
+
+
 header = Label(window,
                    text='Word Correction',
                    font=('Trebuchet MS', 24, 'bold'),
